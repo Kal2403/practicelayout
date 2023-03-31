@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    border: 2px solid black;
+    width: 98%;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    border: 2px solid black;
+    height: 140px;
+    width: 25%;
+}
+
+.container{
+    border: 2px solid black;
+    height: 100vh;
+    width: 98%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    border: 2px solid black;
+    width: 20%;
+    margin: 10px;
+}
+
+.right{
+    border: 2px solid black;
+    width: 20%;
+    margin: 10px;
+}
+
+.footer{
+    border: 2px solid black;
+    width: 98%;
+    margin: 10px;
+    padding-bottom: 100px;
+}
